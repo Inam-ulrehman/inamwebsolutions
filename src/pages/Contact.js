@@ -45,8 +45,11 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact</title>
-        <meta name='description' content='Welcome to our Contact Form' />
+        <title>Contact Us</title>
+        <meta
+          name='description'
+          content='Toll free in Canada (416) 560 6790 .'
+        />
         <link rel='canonical' href='/contact' />
       </Helmet>
       <Wrapper>
