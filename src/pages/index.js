@@ -5,7 +5,6 @@ import LandingPage from './LandingPage'
 import Product from './Product'
 import SharedLayout from './SharedLayout'
 import SingleProduct from './SingleProduct'
-import Test from './Test'
 
 export {
   SharedLayout,
@@ -13,7 +12,6 @@ export {
   ErrorPage,
   About,
   Contact,
-  Test,
   Product,
   SingleProduct,
 }

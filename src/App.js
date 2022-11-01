@@ -9,7 +9,6 @@ import {
   ErrorPage,
   About,
   Contact,
-  Test,
   Product,
   SingleProduct,
 } from './pages'
@@ -26,7 +25,6 @@ const App = () => {
           <Route path='contact' element={<Contact />} />
           <Route path='product' element={<Product />} />
           <Route path='product/:id' element={<SingleProduct />} />
-          <Route path='test' element={<Test />} />
         </Route>
       </Routes>
       <ToastContainer />
