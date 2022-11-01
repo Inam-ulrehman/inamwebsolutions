@@ -12,9 +12,9 @@ import {
 
 export const navbar = [
   { id: 1, path: '/', title: 'Home', icon: <FaHome /> },
-  { id: 2, path: '/about', title: 'About', icon: <FaEnvelope /> },
-  { id: 3, path: '/contact', title: 'Contact', icon: <FaRegAddressBook /> },
-  { id: 4, path: '/product', title: 'Services', icon: <FaRegSun /> },
+  { id: 2, path: '/about', title: 'AboutUs', icon: <FaEnvelope /> },
+  { id: 3, path: '/product', title: 'Services', icon: <FaRegSun /> },
+  { id: 4, path: '/contact', title: 'ContactUs', icon: <FaRegAddressBook /> },
 ]
 
 // ==========Landing Page=============//
