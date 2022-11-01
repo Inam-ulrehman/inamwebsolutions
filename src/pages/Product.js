@@ -14,7 +14,7 @@ const Product = () => {
           name='description'
           content='We creates Digital Solutions for your business and helps you launch your product all over the internet'
         />
-        <link rel='canonical' href='/about' />
+        <link rel='canonical' href='/product' />
       </Helmet>
       <Wrapper>
         <div className='Service-heading'>
