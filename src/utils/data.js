@@ -99,7 +99,7 @@ export const address = [
 export const socialIcons = [
   {
     id: 1,
-    path: 'https://www.facebook.com/profile.php?id=100086764830998',
+    path: 'https://www.facebook.com/inamwebsolutions',
     target: '_blank',
     rel: 'noreferrer',
     icon: <FaFacebook />,
