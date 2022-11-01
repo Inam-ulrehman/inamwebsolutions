@@ -107,14 +107,14 @@ export const socialIcons = [
   },
   {
     id: 2,
-    path: 'www.linkedin.com/in/Inamwebsolutions',
+    path: 'https://www.linkedin.com/in/Inamwebsolutions',
     target: '_blank',
     rel: 'noreferrer',
     icon: <FaLinkedin />,
     title: 'Linkedin',
   },
   {
-    id: 5,
+    id: 3,
     path: 'https://www.instagram.com/inamwebsolutions/',
     target: '_blank',
     rel: 'noreferrer',
