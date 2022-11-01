@@ -5,7 +5,7 @@ import {
   FaRegSun,
   FaInstagramSquare,
   FaFacebook,
-  FaTwitterSquare,
+  FaLinkedin,
 } from 'react-icons/fa'
 
 // ========Nav Bar=========== //
@@ -107,11 +107,11 @@ export const socialIcons = [
   },
   {
     id: 2,
-    path: 'https://Twitter.com',
+    path: 'www.linkedin.com/in/Inamwebsolutions',
     target: '_blank',
     rel: 'noreferrer',
-    icon: <FaTwitterSquare />,
-    title: 'Twitter',
+    icon: <FaLinkedin />,
+    title: 'Linkedin',
   },
   {
     id: 5,
