@@ -115,7 +115,7 @@ export const socialIcons = [
   },
   {
     id: 5,
-    path: 'https://www.instagram.com/',
+    path: 'https://www.instagram.com/inamwebsolutions/',
     target: '_blank',
     rel: 'noreferrer',
     icon: <FaInstagramSquare />,
