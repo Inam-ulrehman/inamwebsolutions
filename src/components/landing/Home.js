@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 // import { landingPage } from '../../utils/data'
-const image =
-  'https://res.cloudinary.com/inam6530/image/upload/v1667394769/inamwebsolutions/Untitled_design_s5azna.svg'
 
 const Home = ({ landingPage }) => {
   console.log(landingPage)
@@ -11,7 +9,7 @@ const Home = ({ landingPage }) => {
     <Wrapper>
       <div className='box box-mobile'>
         <h1>{landingPage.heading}</h1>
-        <img src={image} alt='computer' />
+        <img src={landingPage.mobileImage} alt='computer' />
         <p>{landingPage.paragraph}</p>
         <Link to={landingPage.path} className='btn'>
           {landingPage.buttonTitle}

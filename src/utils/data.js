@@ -26,16 +26,20 @@ export const landingPage = {
   buttonTitle: 'Services',
   image:
     'https://res.cloudinary.com/inam6530/image/upload/v1667050849/inamwebsolutions/Untitled_design_3_aquzmj.svg',
+  mobileImage:
+    'https://res.cloudinary.com/inam6530/image/upload/v1667397263/inamwebsolutions/Untitled_design_1_xkozce.svg',
 }
 // ========Landing Page Two=========//
 export const landingPageTwo = {
-  heading: 'Host Website With Us',
+  heading: 'Website Hosting Solutions',
   paragraph:
     'Time to upgrade your business? Let us help you say goodbye to the old server and move to the digital cloud database.',
   path: '/product/2',
   buttonTitle: 'Hosting Solutions',
   image:
     'https://res.cloudinary.com/inam6530/image/upload/v1667232614/inamwebsolutions/Untitled_design_qqnc8j.svg',
+  mobileImage:
+    'https://res.cloudinary.com/inam6530/image/upload/v1667397628/inamwebsolutions/Untitled_design_c34vsn.png',
 }
 // ================About Page================
 export const aboutHeading = {
