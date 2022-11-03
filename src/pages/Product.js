@@ -12,7 +12,7 @@ const Product = () => {
         <title>Services</title>
         <meta
           name='description'
-          content='We creates Digital Solutions for your business and helps you launch your product all over the internet'
+          content='We creates Digital Solutions for your business and helps you launch your product all over the internet.'
         />
         <link rel='canonical' href='/product' />
       </Helmet>

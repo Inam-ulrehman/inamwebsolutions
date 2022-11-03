@@ -9,12 +9,17 @@ const Logo = () => {
     navigate('/')
   }
   return (
-    <Wrapper onClick={handleClick}>
-      <img style={{ width: '200px', height: '200px' }} src={logo} alt='' />
-    </Wrapper>
+    <>
+      <Wrapper
+        onClick={handleClick}
+        style={{ width: '200px', height: '200px' }}
+        src={logo}
+        alt='logo'
+      />
+    </>
   )
 }
-const Wrapper = styled.div`
+const Wrapper = styled.img`
   margin-top: -4.3rem;
   margin-bottom: -4.3rem;
   transition: var(--transition-1);
