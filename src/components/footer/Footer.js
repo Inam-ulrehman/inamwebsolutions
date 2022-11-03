@@ -32,7 +32,7 @@ const Wrapper = styled.footer`
   .logo-holder {
   }
   @media (min-width: 600px) {
-    height: calc(100vh - 3.2rem);
+    min-height: calc(100vh - 3.2rem);
     .container {
       display: grid;
       gap: 1rem;

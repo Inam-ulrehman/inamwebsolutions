@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
+import { logo } from '../utils/data'
 
 const Logo = () => {
   const navigate = useNavigate()
@@ -9,31 +10,17 @@ const Logo = () => {
   }
   return (
     <Wrapper onClick={handleClick}>
-      <p>
-        Inam<span>Web</span>Solutions
-      </p>
+      <img style={{ width: '200px', height: '200px' }} src={logo} alt='' />
     </Wrapper>
   )
 }
 const Wrapper = styled.div`
+  margin-top: -4.3rem;
+  margin-bottom: -4.3rem;
+  transition: var(--transition-1);
   :hover {
     cursor: pointer;
-  }
-  p {
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin: 0;
-
-    span {
-      color: var(--primary-5);
-      font-weight: 700;
-    }
-    background-color: var(--grey-1);
-    width: fit-content;
-    border-radius: var(--radius);
-    padding: 5px;
-    border: 2px solid var(--primary-5);
-    box-shadow: var(--shadow-3);
+    scale: 1.1;
   }
 `
 export default Logo
