@@ -9,10 +9,10 @@ const Product = () => {
   return (
     <>
       <Helmet>
-        <title>Services</title>
+        <title>Website development Services</title>
         <meta
           name='description'
-          content='We creates Digital Solutions for your business and helps you launch your product all over the internet.'
+          content='We create Digital Solutions for your business and help you launch your product by using the same technology and idea used by Facebook. '
         />
         <link rel='canonical' href='/product' />
       </Helmet>

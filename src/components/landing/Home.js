@@ -9,7 +9,7 @@ const Home = ({ landingPage }) => {
     <Wrapper>
       <div className='box box-mobile'>
         <h1>{landingPage.heading}</h1>
-        <img src={landingPage.mobileImage} alt='computer' />
+        <img src={landingPage.mobileImage} alt='Inam web Solutions' />
         <p>{landingPage.paragraph}</p>
         <Link to={landingPage.path} className='btn'>
           {landingPage.buttonTitle}

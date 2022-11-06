@@ -10,10 +10,10 @@ const LandingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Home</title>
+        <title>Inam Website Design Solutions</title>
         <meta
           name='description'
-          content='We provide digital solutions to all businesses, from Software Development to deployment or design to hosting we cover your back.'
+          content='Web Designer in Kitchener-Waterloo. We offer Website Design, Website Hosting, Website Development, and Cloud Hosting Solutions.'
         />
         <link rel='canonical' href='/' />
       </Helmet>
