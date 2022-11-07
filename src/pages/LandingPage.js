@@ -10,7 +10,9 @@ const LandingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Website Design Solutions</title>
+        <title>
+          Professional Web Developers - With You From Concept to Code
+        </title>
         <meta
           name='description'
           content='Web Designer in Kitchener-Waterloo. We offer Website Design, Website Hosting, Website Development, and Cloud Hosting Solutions.'
