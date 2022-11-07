@@ -8,8 +8,11 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About</title>
-        <meta name='description' content={aboutHeading.paragraph} />
+        <title>Developers Team</title>
+        <meta
+          name='description'
+          content='We have very hardworking and dedicated team members, teamwork play a huge role in a project and outcomes shine when it comes to good understanding.'
+        />
         <link rel='canonical' href='/about' />
       </Helmet>
       <Wrapper>
