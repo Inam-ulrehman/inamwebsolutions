@@ -6,6 +6,7 @@ import {
   FaInstagramSquare,
   FaFacebook,
   FaLinkedin,
+  FaRegIdCard,
 } from 'react-icons/fa'
 
 // ========logo =========== //
@@ -17,7 +18,8 @@ export const navbar = [
   { id: 1, path: '/', title: 'Home', icon: <FaHome /> },
   { id: 2, path: '/about', title: 'AboutUs', icon: <FaEnvelope /> },
   { id: 3, path: '/product', title: 'Services', icon: <FaRegSun /> },
-  { id: 4, path: '/contact', title: 'ContactUs', icon: <FaRegAddressBook /> },
+  { id: 4, path: '/portfolio', title: 'portfolio', icon: <FaRegAddressBook /> },
+  { id: 4, path: '/contact', title: 'ContactUs', icon: <FaRegIdCard /> },
 ]
 
 // ==========Landing Page=============//
@@ -70,6 +72,37 @@ export const teamMembers = [
     titleName: 'George Bush',
     titleJob: 'Software engineer',
     description: `George is a coding addict most of the time he fixes bugs and searching new technologies.`,
+  },
+]
+// ===========portfolio======
+export const portfolio = [
+  {
+    id: 1,
+    title: 'Burger Queen',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/1_gajygi.png',
+    link: 'https://burgerqueenbyinam.netlify.app/',
+  },
+  {
+    id: 2,
+    title: 'Sania Optical',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/2_rhro7i.png',
+    link: 'https://saniaoptical.netlify.app/',
+  },
+  {
+    id: 3,
+    title: 'Business Website',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/4_rstren.png',
+    link: 'https://inamulrehman.netlify.app/',
+  },
+  {
+    id: 4,
+    title: 'Real Pure Water',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/3_bx1qmj.png',
+    link: 'https://www.realpurewater.ca/',
   },
 ]
 // ===========footer //============

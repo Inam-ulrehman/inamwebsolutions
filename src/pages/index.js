@@ -1,3 +1,4 @@
+import Portfolio from './Portfolio'
 import About from './About'
 import Contact from './Contact'
 import ErrorPage from './ErrorPage'
@@ -7,6 +8,7 @@ import SharedLayout from './SharedLayout'
 import SingleProduct from './SingleProduct'
 
 export {
+  Portfolio,
   SharedLayout,
   LandingPage,
   ErrorPage,
