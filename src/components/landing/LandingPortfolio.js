@@ -11,15 +11,11 @@ const LandingPortfolio = () => {
         {portfolio
           .map((item, index) => {
             return (
-              <a
-                href={item.link}
-                target='_blank'
-                rel='noreferrer'
-                className='single-portfolio'
-                key={index}
-              >
-                <h5 className='title'>{item.title}</h5>
-                <img src={item.image} alt='computer' />
+              <a href={item.link} target='_blank' rel='noreferrer' key={index}>
+                <div className='single-portfolio'>
+                  <h5 className='title'>{item.title}</h5>
+                  <img src={item.image} alt='computer' />
+                </div>
               </a>
             )
           })
@@ -29,24 +25,7 @@ const LandingPortfolio = () => {
   )
 }
 const Wrapper = styled.div`
-  min-height: calc(100vh - 3.2rem);
-  h5 {
-    color: var(--black);
-  }
-  @media (min-width: 620px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    max-width: var(--fixed-width);
-    margin: 0 auto;
-  }
-
-  @media (min-width: 1120px) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: var(--max-width);
-    gap: 1rem;
-  }
-  /* single portfolio */
+  height: calc(100vh - 8.2rem); /* single portfolio */
   .single-portfolio {
     box-shadow: var(--shadow-1);
     max-width: 320px;
@@ -69,6 +48,23 @@ const Wrapper = styled.div`
       width: 100%;
       height: 280px;
     }
+  }
+  h5 {
+    color: var(--black);
+  }
+  @media (min-width: 620px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: var(--fixed-width);
+    margin: 0 auto;
+    gap: 1rem;
+  }
+
+  @media (min-width: 1120px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: var(--max-width);
+    gap: 1rem;
   }
 `
 export default LandingPortfolio
