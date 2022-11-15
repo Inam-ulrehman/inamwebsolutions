@@ -129,9 +129,6 @@ export const socialIcons = [
     title: 'Instagram',
   },
 ]
-// ======== data for google maps==========
-
-export const googleMapsData = { lat: 43.4450848, lng: -80.48596 }
 
 // =========Services============//
 export const services = [
