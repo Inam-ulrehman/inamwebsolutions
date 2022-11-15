@@ -25,7 +25,7 @@ const LandingPortfolio = () => {
   )
 }
 const Wrapper = styled.div`
-  height: calc(100vh - 8.2rem); /* single portfolio */
+  min-height: calc(100vh - 8.2rem); /* single portfolio */
   .single-portfolio {
     box-shadow: var(--shadow-1);
     max-width: 320px;
