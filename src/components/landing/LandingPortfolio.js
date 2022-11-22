@@ -65,6 +65,12 @@ const Wrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: var(--max-width);
     gap: 1rem;
+    .single-portfolio {
+      overflow: hidden;
+      img {
+        height: 300px;
+      }
+    }
   }
 `
 export default LandingPortfolio

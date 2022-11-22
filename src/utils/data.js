@@ -92,28 +92,28 @@ export const portfolio = [
     id: 1,
     title: 'Burger Queen',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/1_gajygi.png',
+      'https://res.cloudinary.com/inam6530/image/upload/v1669135918/inamwebsolutions/2_nerta3.svg',
     link: 'https://burgerqueenbyinam.netlify.app/',
   },
   {
     id: 2,
     title: 'Sania Optical',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/2_rhro7i.png',
+      'https://res.cloudinary.com/inam6530/image/upload/v1669135917/inamwebsolutions/3_wjbuk4.svg',
     link: 'https://saniaoptical.netlify.app/',
   },
   {
     id: 3,
     title: 'Business Website',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/4_rstren.png',
+      'https://res.cloudinary.com/inam6530/image/upload/v1669135917/inamwebsolutions/1_xtvk85.svg',
     link: 'https://inamulrehman.netlify.app/',
   },
   {
     id: 4,
     title: 'Real Pure Water',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1668550655/inamwebsolutions/3_bx1qmj.png',
+      'https://res.cloudinary.com/inam6530/image/upload/v1669135918/inamwebsolutions/4_lnrbna.svg',
     link: 'https://www.realpurewater.ca/',
   },
 ]
