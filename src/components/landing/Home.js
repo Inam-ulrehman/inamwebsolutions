@@ -4,7 +4,6 @@ import styled from 'styled-components'
 // import { landingPage } from '../../utils/data'
 
 const Home = ({ landingPage }) => {
-  console.log(landingPage)
   return (
     <Wrapper>
       <div className='box box-mobile'>
