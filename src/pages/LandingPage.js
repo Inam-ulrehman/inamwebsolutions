@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import GoogleMaps from '../components/GoogleMaps'
 import { Home, Services } from '../components/landing'
 import LandingPortfolio from '../components/landing/LandingPortfolio'
-import { landingPage, landingPageTwo } from '../utils/data'
+import { landingPage, landingPageTwo, landingPageThree } from '../utils/data'
 // const {} = landingPage
 
 const LandingPage = () => {
@@ -25,6 +25,7 @@ const LandingPage = () => {
         <Services />
         <Home landingPage={landingPageTwo} />
         <LandingPortfolio />
+        <Home landingPage={landingPageThree} />
         <GoogleMaps />
       </Wrapper>
     </>

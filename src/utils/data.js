@@ -38,13 +38,25 @@ export const landingPage = {
 export const landingPageTwo = {
   heading: 'Website Hosting Solutions',
   paragraph:
-    'Time to upgrade your business? Let us help you say goodbye to the old server and move to the digital cloud database.',
+    ' We provides secure and free web hosting, allowing you to focus on the important stuff—like building your own beautiful website...',
   path: '/product/2',
   buttonTitle: 'Hosting Solutions',
   image:
     'https://res.cloudinary.com/inam6530/image/upload/v1667232614/inamwebsolutions/Untitled_design_qqnc8j.svg',
   mobileImage:
-    'https://res.cloudinary.com/inam6530/image/upload/v1667397628/inamwebsolutions/Untitled_design_c34vsn.png',
+    'https://res.cloudinary.com/inam6530/image/upload/v1667232614/inamwebsolutions/Untitled_design_qqnc8j.svg',
+}
+// ========Landing Page Three=========//
+export const landingPageThree = {
+  heading: 'Cloud Database Solutions',
+  paragraph:
+    'Shifting to the cloud can be extremely beneficial today due to the wide range of inherited advantages it brings with it.',
+  path: '/product/5',
+  buttonTitle: 'Find your solution',
+  image:
+    'https://res.cloudinary.com/inam6530/image/upload/v1669131574/inamwebsolutions/Untitled_design_mmc109.svg',
+  mobileImage:
+    'https://res.cloudinary.com/inam6530/image/upload/v1669131574/inamwebsolutions/Untitled_design_mmc109.svg',
 }
 // ================About Page================
 export const aboutHeading = {
