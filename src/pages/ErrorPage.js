@@ -33,6 +33,7 @@ const Wrapper = styled.div`
     img {
       max-width: 500px;
     }
+    margin-top: 3.2rem;
   }
 `
 
