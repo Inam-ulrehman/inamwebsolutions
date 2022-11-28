@@ -74,10 +74,10 @@ const Wrapper = styled.nav`
     margin-top: 3.2rem;
     height: calc(100vh);
     width: 100vw;
-
+    background-color: rgba(226, 232, 240, 1) 13%;
     position: relative;
     transition: var(--transition-1);
-    margin-left: -350px;
+    margin-left: -600px;
 
     ul {
       background-color: var(--grey-2);
