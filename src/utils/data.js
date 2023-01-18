@@ -97,10 +97,10 @@ export const portfolio = [
   },
   {
     id: 2,
-    title: 'Sania Optical',
+    title: 'Aryana Spa',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1669135917/inamwebsolutions/3_wjbuk4.svg',
-    link: 'https://saniaoptical.netlify.app/',
+      'https://res.cloudinary.com/inam6530/image/upload/v1674074857/inamwebsolutions/Untitled_design_ndkzcf.png',
+    link: 'https://aryanaspa.netlify.app/',
   },
   {
     id: 3,
