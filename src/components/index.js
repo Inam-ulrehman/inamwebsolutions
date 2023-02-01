@@ -1,3 +1,3 @@
+import PortFolioHolder from './PortFolioHolder'
 import Service from './Service'
-
-export { Service }
+export { PortFolioHolder, Service }

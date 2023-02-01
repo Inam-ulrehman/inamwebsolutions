@@ -99,8 +99,7 @@ export const portfolio = [
     id: 2,
     title: 'Aryana Spa',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1674074857/inamwebsolutions/Untitled_design_ndkzcf.png',
-    link: 'https://aryanaspa.netlify.app/',
+      'https://res.cloudinary.com/inam6530/image/upload/v1675258527/inamwebsolutions/5_p8gnj6.png',
   },
   {
     id: 3,
@@ -113,8 +112,15 @@ export const portfolio = [
     id: 4,
     title: 'Real Pure Water',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1669135918/inamwebsolutions/4_lnrbna.svg',
+      'https://res.cloudinary.com/inam6530/image/upload/v1675258527/inamwebsolutions/7_utcyd8.png',
     link: 'https://www.realpurewater.ca/',
+  },
+  {
+    id: 5,
+    title: 'K-W OPTICAL HOUSE',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1675258527/inamwebsolutions/6_s4tfjv.png',
+    link: 'https://k-w-opticalhouse.netlify.app/',
   },
 ]
 // ===========footer //============

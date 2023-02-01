@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import styled from 'styled-components'
-import LandingPortfolio from '../components/landing/LandingPortfolio'
+import { PortFolioHolder } from '../components'
 
 const Portfolio = () => {
   return (
@@ -15,7 +15,7 @@ const Portfolio = () => {
         <link rel='canonical' href='/' />
       </Helmet>
       <Wrapper>
-        <LandingPortfolio />
+        <PortFolioHolder />
       </Wrapper>
     </>
   )
