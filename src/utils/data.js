@@ -100,6 +100,7 @@ export const portfolio = [
     title: 'Aryana Spa',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1675258527/inamwebsolutions/5_p8gnj6.png',
+    link: 'https://aryanaspa.netlify.app/',
   },
   {
     id: 3,
