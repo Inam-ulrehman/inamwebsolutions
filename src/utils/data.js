@@ -123,6 +123,13 @@ export const portfolio = [
       'https://res.cloudinary.com/inam6530/image/upload/v1675258527/inamwebsolutions/6_s4tfjv.png',
     link: 'https://k-w-opticalhouse.netlify.app/',
   },
+  {
+    id: 5,
+    title: 'BOLT SIGNS',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1676298680/inamwebsolutions/portfolio_720_720_grrpv3.png',
+    link: 'https://boltsign.netlify.app/',
+  },
 ]
 // ===========footer //============
 // ===== Data for Address =====
